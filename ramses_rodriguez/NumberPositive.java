@@ -11,12 +11,12 @@ public class NumberPositive{
         System.out.print("Digita el numero: ");
         int number = keyboard.nextInt();
 
-        if ( number ==0){
-            System.out.println("el numero es cero");
-        } else if (number % 2 == 0){
-            System.out.println("el numero es par");
+        if ( number >0){
+            System.out.println("El numero es positivo");
+        } else if (number < 0){
+            System.out.println("El numero es negativo");
         } else {
-            System.out.println("el numero es impar");
+            System.out.println("El numero es cero");
         }
         keyboard.close();
 
