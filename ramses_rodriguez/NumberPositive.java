@@ -9,9 +9,16 @@ public class NumberPositive{
 
         System.out.println("Q xopa bloc indicame un numero entero");
         System.out.print("Digita el numero: ");
-        String num = keyboard.nextLine();
+        int number = keyboard.nextInt();
 
-        if ()
-    }
-}
+        if ( number ==0){
+            System.out.println("el numero es cero");
+        } else if (number % 2 == 0){
+            System.out.println("el numero es par");
+        } else {
+            System.out.println("el numero es impar");
+        }
+        keyboard.close();
 
+        }
+        }
