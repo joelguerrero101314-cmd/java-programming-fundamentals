@@ -15,7 +15,7 @@ public class PossitiveNegativeNumbers {
         else if (numero < 0)
             System.out.println("El numero es negativo");
         else
-            System.out.println("El numero es igual a cero y mas nada");
+            System.out.println("El numero es igual a cero ");
 
     }
 }
