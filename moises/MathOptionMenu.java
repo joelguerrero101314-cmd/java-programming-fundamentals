@@ -12,8 +12,6 @@ public class MathOptionMenu {
             System.out.println("3. Multiplicar ");
             System.out.println("4. Division ");
             System.out.println("");
-            System.out.print("Ingrese una opcion: ");
-            int option = sc.nextInt();
 
             System.out.print("Desea continuar usando el programa(S/N): ");
             answer = sc.next().charAt(0);

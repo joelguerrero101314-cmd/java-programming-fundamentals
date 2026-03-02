@@ -7,19 +7,19 @@ public class GradePointAverage {
         double note;
         System.out.print("Ingrese la primera nota: ");
         note = sc.nextDouble();
-        suma = suma + note;
+        suma += note;
         System.out.print("Ingrese la segunda nota: ");
         note = sc.nextDouble();
-        suma = suma + note;
+        suma += note;
         System.out.print("Ingrese la tercera nota: ");
         note = sc.nextDouble();
-        suma = suma + note;
+        suma += note;
         System.out.print("Ingrese la cuarta nota: ");
         note = sc.nextDouble();
-        suma = suma + note;
+        suma += note;
         System.out.print("Ingrese la quinta nota: ");
         note = sc.nextDouble();
-        suma = suma + note;
+        suma += note;
 
         double promedio = suma / 5.0;
 
