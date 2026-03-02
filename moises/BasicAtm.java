@@ -33,7 +33,7 @@ public class BasicAtm {
                     break;
             }
 
-            System.out.print("Desea seguir continuar usando el cejero automatico(S/N): ");
+            System.out.print("Desea seguir continuando usando el cajero automatico(S/N): ");
             asnwer = sc.next().charAt(0);
         }while(asnwer == 'S' || asnwer == 's');
         System.out.println("Saliendo del sistema...");
