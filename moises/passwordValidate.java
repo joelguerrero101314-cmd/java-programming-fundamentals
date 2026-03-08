@@ -5,7 +5,7 @@ public class passwordValidate {
         Scanner sc = new Scanner(System.in);
         int counter = 1;
 
-        while (counter <= 3) {
+        while (counter <= 3) {  
             
             System.out.print("Ingrese la contraseña correcta: ");
             String password = sc.next();
