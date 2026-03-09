@@ -47,7 +47,7 @@ public class BasicAtm {
 
         System.out.println("Nuevo saldo disponible: "+keep);
     }
-    public static void withdraw(Scanner sc) {
+    public static void withDraw(Scanner sc) {
           System.out.println("Saldo disponible: "+keep);
           System.out.print("¿Cuanto saldo desea retirar?: ");
           int withdrawal = sc.nextInt();
