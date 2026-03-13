@@ -16,15 +16,15 @@ public class ShoppingCart {
             prices.add(sc.nextDouble());
         }
 
-        double sumPrices = calculateTotal(sc);
+        double sumPrices = calculateTotal();
 
         System.out.println("--------------------------");
         System.out.println("Precio total: " + sumPrices);
         System.out.println("--------------------------");
-        
+
         sc.close();
     }
-    static double calculateTotal(Scanner sc) {
+    static double calculateTotal() {
         for(double price : prices) {
             sum += price;
         }
